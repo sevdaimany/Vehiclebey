@@ -1,4 +1,4 @@
-import pika, sys, os
+import pika
 from config import rabbitMQ_config
 
 def send(body):

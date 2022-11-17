@@ -1,4 +1,3 @@
-#%%
 import requests
 from config import taging_config
 
@@ -28,8 +27,3 @@ def tag(image_url):
             print('ERROR')
             print(e)
             tries += 1
-        
-    
-# a = tag("https://s3.ir-thr-at1.arvanstorage.com/adsphoto/17.jpg")
-
-#%%

@@ -3,9 +3,6 @@ import database
 import object_storage
 import rabbitMQ
 from flask import Flask, render_template
-from PIL import Image
-import base64
-import io
 from flask import  request
 app = Flask(__name__)
 

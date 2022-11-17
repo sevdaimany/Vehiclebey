@@ -1,13 +1,7 @@
 #%%
-
-from unittest.mock import DEFAULT
 import psycopg2
-import pandas.io.sql as sqlio
 from config import database_config
-import pandas as np
 
-
-#%%
 
 def create_table():
 	""" create tables in the PostgreSQL database"""
