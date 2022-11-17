@@ -1,0 +1,22 @@
+body{  
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-family: 'Avenir', sans-serif; 
+  color: #33475b;
+  background-color:rgb(225, 219, 219);
+} 
+
+img{
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+h1{
+	margin-left: auto;
+	margin-right: auto; 
+  width: 60%;
+}
+
