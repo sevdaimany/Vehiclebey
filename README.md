@@ -1,5 +1,5 @@
 
-# advertisement Service
+# 🚎advertisement Service
 
 This is a project for the cloud computing course, trying to use cloud 
 services to create an app.
@@ -25,7 +25,7 @@ Screenshot](https://github.com/sevdaimany/Vehiclebey/blob/master/photos/architec
 
 ## Installation
 
-For deploying this project, you have to first set up a flask server.
+For running this project, you have to first set up a flask server.
 
 
 * Installing Flask
@@ -52,5 +52,44 @@ $ pip install requests
 Screenshot](https://github.com/sevdaimany/Vehiclebey/blob/master/photos/request.png)
 ![App 
 Screenshot](https://github.com/sevdaimany/Vehiclebey/blob/master/photos/showad.png)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/sevdaimany/Vehiclebey.git
+```
+
+Go to the project directory
+
+```bash
+  cd Vehiclebey
+```
+
+Start Flask server
+
+```bash
+  python API_1.py
+```
+
+Run the second API
+```bash
+  python API_2.py
+```
+
+Then you can create a new advertisement by sending a request with the 
+Postman app.
+The request should have a Body with text, image, and email Keys.
+
+## Documentation
+
+[Documentation](https://github.com/sevdaimany/Vehiclebey/blob/master/CC_HW1.pdf)
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
 
 
