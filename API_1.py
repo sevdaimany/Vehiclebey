@@ -6,7 +6,7 @@ from flask import Flask, render_template
 from flask import  request
 app = Flask(__name__)
 
-def get_last_id():
+def get_unique_id():
     unique_id = database.get_last_id()[0]
     if unique_id== None:
         unique_id = 0
@@ -22,7 +22,7 @@ def show():
 
 @app.route('/add', methods=["GET"])
 def main():
-    unique_id = get_last_id()
+    unique_id = get_unique_id()
     while(True):
         
         text = request.form['text']
